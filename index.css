@@ -1,0 +1,96 @@
+/* font-family: 'Bree Serif', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'PT Sans Caption', sans-serif;
+font-family: 'Righteous', sans-serif; */
+main{
+    min-height: 100vh;
+    background-color: #f7ecde;
+    
+}
+main h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3.125rem;
+    color: #352e28;
+    isolation: isolate;
+}
+main h1::before{
+    content: "" ;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+
+}
+main h1:hover::before{
+    height: 50%;
+
+}
+.bookmark-body{
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+.bookmark-body h2{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+label{
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+.btn-danger{
+    background-color: #d1512d;
+}
+.box-info{
+    background-color: #0007;
+}
+.box-conent{
+    position: absolute;
+    top : 18%;
+    height: auto;
+    width: 30rem;
+    z-index: 10;
+}
+.circles span:nth-child(1) {
+    background-color: #f15f5d;
+}
+.circles span:nth-child(2) {
+    background-color: #febe2e;
+}
+.circles span:nth-child(3) {
+    background-color: #4db748;
+}
+.circles span {
+    display: block;
+    width:1.25rem;
+    height:1.25rem;
+}
+.box-conent p{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.3125rem;
+    /* line-height: 1.3; */
+    color: #352e28;
+}
+
+.box-conent li{
+    font-weight: 400;  
+    font-size: 1.125rem;
+    padding-top: 0.625rem;
+}
+.box-conent li i{
+    color: #d1512d;
+    font-weight: 400;
+}
+
