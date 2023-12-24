@@ -12,9 +12,12 @@
     <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="all.min.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"> 
+
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/index.css">
 </head>
 <body>
     <main class="py-5 position-relative d-block">
@@ -23,20 +26,20 @@
             <h1 class="py-2 position-relative">Bookmarker</h1>
             <div class="bookmark-body w-100 p-3 py-4 mt-5 d-flex flex-column justify-content-center align-items-center gap-4">
                 <h2>
-                 <i class="fa-solid fa-bookmark"></i>
+                <i class="bi bi-bookmark-fill"></i>
                  Bookmark your favorite sites
-                 <i class="fa-solid fa-bookmark"></i>
+                 <i class="bi bi-bookmark-fill"></i>
                  </h2>
                  <div class="site-name container d-flex justify-content-center flex-column" >
                      <label for="bookmarkName " class="pb-2 fw-semibold">
-                         <i class="fa-solid fa-book-bookmark pe-2"></i>   
+                        <i class="bi bi-bookmarks-fill pe-2"></i>   
                        Site Name
                      </label>
                      <input type="text" oninput="validatName(this.value)" placeholder="Bookmark Name" id="bookmarkName" class="form-control">
                  </div>
                  <div class="site-Url container d-flex justify-content-center flex-column" >
                      <label for="bookmarkUrl " class="pb-2 fw-semibold">
-                         <i class="fa-solid fa-link pe-2"></i>   
+                        <i class="bi bi-link-45deg pe-2 fs-4 text-dark"></i>   
                        Site URL
                      </label>
                      <input type="url" oninput="validatURL(this.value)" placeholder="Website Url" id="bookmarkUrl" class="form-control">
@@ -94,7 +97,7 @@
 
       
     </main>
-    
+    <script src="Css/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

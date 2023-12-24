@@ -55,10 +55,10 @@ function display(arr) {
     <td>${Index}</td>
     <td>${arr[i].nameSite}</td>
     <td><button onclick="visitUrl(${i})" class="btn btn-success px-3">
-       <i class="fa-regular fa-eye pe-1"></i>
+    <i class="bi bi-eye pe-1"></i>
        Visit</button></td>
     <td><button onclick = "deletUrl(${i})" class="btn btn-danger">
-      <i class="fa-solid fa-trash-can pe-1"></i>
+    <i class="bi bi-trash pe-1"></i>
       Delete</button></td>
 
 </tr>
